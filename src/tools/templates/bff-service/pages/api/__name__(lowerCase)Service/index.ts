@@ -1,5 +1,5 @@
 import { validateToken } from "@src/utils/CustomValidator"
-import {
+import type {
   I__name__BackServiceParams,
   I__name__BackServiceResponse,
 } from "@src/interfaces/services/back/__name__"

@@ -1,5 +1,5 @@
 import { FetchServiceFE } from "mp-front-cli/core"
-import {
+import type {
   I__name__FrontServiceParams,
   I__name__FrontServiceResponse,
 } from "@src/interfaces/services/front/__name__"

@@ -103,9 +103,10 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
     "baseUrl": "./src",
     "paths": {
-      "@src/*": ["src"],
-    }
+      "@src/*": ["src"]
+    },
+    "removeComments": true
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "src/tools/templates/**/*"],
+  "exclude": ["node_modules", "src/tools/templates/**/*"]
 }

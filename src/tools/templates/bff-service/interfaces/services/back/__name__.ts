@@ -1,8 +1,7 @@
 export interface I__name__BackServiceParams {
-  [x: string]: unknown;
+  [x: string]: unknown
 }
 
 export interface I__name__BackServiceResponse {
-  [x: string]: unknown;
+  [x: string]: unknown
 }
-

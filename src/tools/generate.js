@@ -1,40 +1,39 @@
 import {
   CaseConverterEnum,
   generateTemplateFiles,
-} from 'generate-template-files';
+} from "generate-template-files"
 
 generateTemplateFiles([
   {
-    option: 'Front',
+    option: "Front",
     defaultCase: CaseConverterEnum.PascalCase,
     entry: {
-      folderPath: './templates/front-service/',
+      folderPath: "./templates/front-service/",
     },
-    stringReplacers: [{ question: 'Service name', slot: '__name__' }],
+    stringReplacers: [{ question: "Service name", slot: "__name__" }],
     output: {
-      path: '../../src',
+      path: "../../src",
       pathAndFileNameDefaultCase: CaseConverterEnum.PascalCase,
       overwrite: true,
     },
-    onComplete: (results) => {
-      console.log(`results`, results);
+    onComplete: results => {
+      console.log(`results`, results)
     },
   },
   {
-    option: 'BFF',
+    option: "BFF",
     defaultCase: CaseConverterEnum.PascalCase,
     entry: {
-      folderPath: './templates/bff-service/',
+      folderPath: "./templates/bff-service/",
     },
-    stringReplacers: [{ question: 'Service name', slot: '__name__' }],
+    stringReplacers: [{ question: "Service name", slot: "__name__" }],
     output: {
-      path: '../../src',
+      path: "../../src",
       pathAndFileNameDefaultCase: CaseConverterEnum.PascalCase,
       overwrite: true,
     },
-    onComplete: (results) => {
-      console.log(`results`, results);
+    onComplete: results => {
+      console.log(`results`, results)
     },
   },
-]);
-
+])

@@ -12,7 +12,7 @@ generateTemplateFiles([
     },
     stringReplacers: [{ question: 'Service name', slot: '__name__' }],
     output: {
-      path: 'src/__name__(kebabCase)',
+      path: '../../src',
       pathAndFileNameDefaultCase: CaseConverterEnum.PascalCase,
       overwrite: true,
     },

@@ -2,8 +2,8 @@ import { FetchServiceFE } from 'mp-front-cli/core';
 import {
   I__name__FrontServiceParams,
   I__name__FrontServiceResponse,
-} from '../../interfaces/services/front/__name__';
-import { URL___name__ConstantCase__ } from '../../constants/request-paths';
+} from '@src/interfaces/services/front/__name__';
+import { URL___name__ConstantCase__ } from '@src/constants/request-paths';
 
 class __name__Service extends FetchServiceFE<
   I__name__FrontServiceResponse,

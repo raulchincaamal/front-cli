@@ -12,11 +12,11 @@ const api = new ApiMiddleware<
   I__name__BackServiceResponse
 >()
 
-const handler = api.get(({ uuid }, uuidInterno) => {
+const handler = api.get((params, uuidInterno) => {
   const __name__LowerCase__Service = new __name__Service()
 
   return __name__LowerCase__Service
-    .fetchData({ uuid }, uuidInterno)
+    .fetchData(params, uuidInterno)
     .pipe(switchMap(response => of(response.data.attributes)))
 })
 

@@ -4,7 +4,7 @@ import { of } from "rxjs"
 
 const api = new ApiMiddleware<unknown, unknown>()
 
-const handler = api.get((_, uuid) => {
+const handler = api.get((params, uuid) => {
   /**
    * Enter your back service here
    */

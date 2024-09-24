@@ -1,4 +1,4 @@
-export enum CaseConverterEnum {
+export enum CaseConverter {
   /**
    *
    *
@@ -16,7 +16,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.None;
    * ```
    */
-  NoneUnderscore = "NoCase__",
+  None = "NoCase__",
   /**
    *
    *  ```
@@ -33,7 +33,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.CamelCase;
    * ```
    */
-  CamelCaseUnderscore = "CamelCase__",
+  CamelCase = "CamelCase__",
   /**
    *
    *  ```
@@ -50,7 +50,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.ConstantCase;
    * ```
    */
-  ConstantCaseUnderscore = "ConstantCase__",
+  ConstantCase = "ConstantCase__",
   /**
    *
    *  ```
@@ -67,7 +67,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.DotCase;
    * ```
    */
-  DotCaseUnderscore = "DotCase__",
+  DotCase = "DotCase__",
   /**
    *
    *  ```
@@ -84,7 +84,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.KebabCase;
    * ```
    */
-  KebabCaseUnderscore = "KebabCase__",
+  KebabCase = "KebabCase__",
   /**
    *
    *  ```
@@ -101,7 +101,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.LowerCase;
    * ```
    */
-  LowerCaseUnderscore = "LowerCase__",
+  LowerCase = "LowerCase__",
   /**
    *
    *  ```
@@ -118,7 +118,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.PascalCase;
    * ```
    */
-  PascalCaseUnderscore = "PascalCase__",
+  PascalCase = "PascalCase__",
   /**
    *
    *  ```
@@ -135,7 +135,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.PathCase;
    * ```
    */
-  PathCaseUnderscore = "PathCase__",
+  PathCase = "PathCase__",
   /**
    *
    *  ```
@@ -152,7 +152,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.SentenceCase;
    * ```
    */
-  SentenceCaseUnderscore = "SentenceCase__",
+  SentenceCase = "SentenceCase__",
   /**
    *
    *  ```
@@ -169,7 +169,7 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.SnakeCase;
    * ```
    */
-  SnakeCaseUnderscore = "SnakeCase__",
+  SnakeCase = "SnakeCase__",
   /**
    *
    *  ```
@@ -186,5 +186,5 @@ export enum CaseConverterEnum {
    * CaseConverterEnum.TitleCase;
    * ```
    */
-  TitleCaseUnderscore = "TitleCase__",
+  TitleCase = "TitleCase__",
 }
